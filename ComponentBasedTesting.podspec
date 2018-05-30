@@ -4,9 +4,8 @@ s.version      = "0.0.1"
 s.summary      = "常用的分类封装."
 
 
-s.description  = <<-DESC
-第一个podspec
-DESC
+## 第一个podspec
+
 
 s.homepage     = "https://github.com/18439935794/ComponentBasedTesting"
 s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -18,7 +17,7 @@ s.source       = { :git => "https://github.com/18439935794/ComponentBasedTesting
 ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
 ## 正常情况下我们会使用稳定的tag版本来访问，如果是在开发测试的时候，不需要发布release版本，直接指向git地址使用
 ## 待测试通过完成后我们再发布指定release版本，使用如下方式
-#s.source       = { :git => "http://EXAMPLE/O2View.git", :tag => version }
+s.source       = { :git => "http://EXAMPLE/O2View.git", :tag => version }
 
 s.source_files  = "ComponentBasedTesting/ComponentBasedTesting/**/*.{h,m}"
 s.requires_arc = true
