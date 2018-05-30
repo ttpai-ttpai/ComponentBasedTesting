@@ -19,7 +19,7 @@ s.source       = { :git => "https://github.com/18439935794/ComponentBasedTesting
 ## 待测试通过完成后我们再发布指定release版本，使用如下方式
 s.source       = { :git => "https://github.com/18439935794/ComponentBasedTesting.git", :tag => "#{s.version}" }
 
-## s.source_files  = "ComponentBasedTesting", "ComponentBasedTesting/**/*.{h,m}"
+s.source_files  = "ComponentBasedTesting/**/*.{h,m}"
 s.requires_arc = true
 
 end
