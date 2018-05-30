@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "ComponentBasedTesting"
-s.version      = "0.0.2"
+s.version      = "0.0.3"
 s.summary      = "常用的分类封装."
 
 
@@ -19,7 +19,7 @@ s.source       = { :git => "https://github.com/18439935794/ComponentBasedTesting
 ## 待测试通过完成后我们再发布指定release版本，使用如下方式
 s.source       = { :git => "https://github.com/18439935794/ComponentBasedTesting.git", :tag => "#{s.version}" }
 
-s.source_files  = "UIAlertViewController/**/*.{h,m}"
+s.source_files  = "UIAlertViewController/sources/*.{h,m}"
 s.requires_arc = true
 
 end
